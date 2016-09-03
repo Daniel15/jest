@@ -16,7 +16,7 @@ const skipOnWindows = require('skipOnWindows');
 
 const DIR = path.resolve(__dirname, '..', 'babel-plugin-jest-hoist');
 
-skipOnWindows.suite();
+//skipOnWindows.suite();
 
 if (process.platform !== 'win32') {
   beforeEach(() => {
